@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<style>
+  .item1{background:white; 
+  grid-area: 1/1/2/4;
+  justify-self: end;
+  padding: 15px 20px 0px 0px;
+  }
+
+  .item2{
+    background:white;
+    grid-area: 3/1/4/4;
+    justify-self: center;
+    align-self: start;
+    
+  }
+
+  .item3{background:white;
+  grid-area: 4/1/4/4;
+  justify-self: center;
+  align-self: start;
+  font-size: 16px;
+  margin: 15px;
+
+  }
+
+  .item4{background: #9999;
+  grid-area: 5/1/6/4;
+  
+  
+  }
+
+  .item5 {
+    background: #9999;
+    grid-column: 1 / 4;
+    grid-row: 6/7;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    font-size: 15px;
+    text-align: left;
+    color: rgba(0,0,0,.54);
+    font-family: arial,sans-serif;
+    padding: 5px;
+
+  }
+  .sub-item5 {
+    text-align: right;
+    padding: 0px 15px; 
+  }
+
+  .container {
+    font-size: 15px;
+    height: 100%;
+    width: 100%;
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 60px 1fr 3.1fr 35px 35px;
+    grid-gap: 1px;
+
+  }
+
+  .click{
+    font-size: 13px;
+  }
+  
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  }
+  li {
+  display: inline;
+  }
+
+  .f{
+    border-radius: 50%;
+  }
+  .nic{
+    font-size: 15px;
+    text-align: left;
+    color: rgba(0,0,0,.54);
+    font-family: arial,sans-serif;
+    padding: 15px;
+  }
+
+  li a:hover {
+  background-color: #999;
+  }
+  a {
+  padding: 8px;
+  }
+
+  img {
+  max-width: 100%;
+  height: auto;
+}
+
+  #tap{
+    margin:20px;
+  }
+
+</style>
+
+<div class="container">
+
+
+  <div class="item1" class="gb_0f">
+     <ul>
+  <li><a href="1">Gmail</a></li>
+  <li><a href="2">Images</a></li>
+  <li><img class="f" src="https://lh3.googleusercontent.com/ogw/ADGmqu9iDbw5YMB6xjdL4-U11-BMxuzY8t2ZkHR4VphR=s32-c-mo" alt="circle"></li>
+  </ul> 
+  </div>
+
+  <div class="item2">
+    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google-logo">
+
+    <form action="Googlebrowser">
+    <input type="text" placeholder="enter url">
+    </form id="tap">
+     <button type="button" class="click">Google Search</button> 
+     <button type="button" class="click">I'm feeling lucky</button> 
+  </div>
+
+  <div class="item3"> 
+    Goggle offered in:
+    <a href="https://www.google.com/setprefs?sig=0_fmY-O2HQrzD-Jet64NtP60kcI4c%3D&amp;hl=es-419&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwjoltWzuMPrAhXNp1kKHdLaCI4Q2ZgBCA4">Español (Latinoamérica)</a></div>
+
+  <div class="item4">
+
+    <span class="nic">Nicaragua</span>
+  </div>
+  <div class="item5">
+    <div class="sub-item1">
+      <ul>
+       <li><a href="1">Advertising</a></li>
+       <li><a href="2">Business</a></li>
+       <li><a href="3">About</a></li>
+       <li><a href="4">How search works</a></li>          
+      </ul>
+    </div>
+    <div class="sub-item5"><ul>
+       <li><a href="1">Privacy</a></li>
+       <li><a href="2">Terms</a></li>
+       <li><a href="3">Settings</a></li>     
+       <li></ul></div></li>
+  </div>
+</div>
+
+</html>
