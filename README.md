@@ -1,0 +1,1 @@
+This project is intended to create a wenpage using HTML that looks like google page (visually)
